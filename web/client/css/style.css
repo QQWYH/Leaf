@@ -79,19 +79,19 @@
     background-color: gray;
 }
 .show{
-    height: 480px;
+    height: 460px;
+    padding-top: 20px;
 }
 .show>.row{
     width: 724px;
-    height: 480px;
-    margin: 20px 0 0 20px;
+    height: 460px;
+    margin: 10px 17px;
     float: left;
     position: relative;
 }
 .show>.row-a{
     width: 724px;
-    height: 480px;
-    margin: 20px 0 0 20px;
+    height: 460px;
     float: left;
     position: relative;
 }
@@ -125,4 +125,12 @@
 .show>.row>.show-an>em{
     margin-left: 10px;
     font-size: 14px;
+}
+.yunyu{
+    height: 570px;
+    margin-top: 30px;
+}
+.yunyu img{
+    width: 100%;
+    height: 100%;
 }
