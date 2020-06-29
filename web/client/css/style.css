@@ -1,0 +1,77 @@
+/* 公共样式 */
+.banner-con{
+    width: 1280px;
+    margin: 0 auto;
+}
+/* banner */
+#banner{
+    height: 570px;
+    position: relative;
+}
+#banner>a>img{
+    width: 100%;
+    height: 100%;
+}
+#banner>h2{
+    position: absolute;
+    left: 42%;
+    top: 42%;
+    font-size: 37px;
+    font-weight: 800;
+}
+#banner>.b-R{
+    position: absolute;
+    left: 43%;
+    top: 55%;
+    display: block;
+    width: 157px;
+    height: 48px;
+    background-color: #fff;
+}
+#banner>.b-R>em{
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 48px;
+    margin-left: 10px;
+}
+#banner>.b-E{
+    position: absolute;
+    left: 43%;
+    top: 66%;
+    display: block;
+    width: 157px;
+    height: 48px;
+    background-color: #fff;
+}
+#banner>.b-E>em{
+    color: black;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 48px;
+    margin-left: 10px;
+}
+#banner>.b-R:hover{
+    opacity: 0.9;
+    color: gainsboro;
+}
+#banner>.b-E:hover{
+    opacity: 0.9;
+    color: gainsboro;
+}
+#banner>.bg{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #fff;
+}
+#banner>.bk{
+    position: absolute;
+    top: 66%;
+    left: 43%;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #fff;
+}
