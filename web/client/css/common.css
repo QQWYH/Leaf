@@ -1,5 +1,5 @@
 /* 公共样式 */
-.top-con,.header-con,.footer-con,.bottom-con{
+.top-con,.header-con,.footer-con,.bottom-con,.conter-con{
     width: 1280px;
     margin: 0 auto;
 }
@@ -126,6 +126,7 @@
 }
 .footer-con>.ul-btm li{
     float: left;
+    margin-left: 37px;
 }
 .footer-con ul li{
     margin-top: 10px;

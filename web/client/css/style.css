@@ -1,5 +1,5 @@
 /* 公共样式 */
-.banner-con,.cms,.footer-list{
+.banner-con,.cms,.footer-list,.register-con{
     width: 1280px;
     margin: 0 auto;
 }
@@ -192,20 +192,122 @@
     height: 480px;
     border: 1px solid #ccc;
 }
-
-#footer{
-    height: 480px;
+/* login */
+#conter{
+    background-color: #fff;
 }
-.footer-top{
-    background-color: black;
-    height: 100px;
+.conter-con{
+    height: 628px;
 }
-.footer-top>.footer-list li{
-    display: block;
-    font-size: 18px;
+.conter-con>.left{
+    height: 604px;
+    width: 600px;
     float: left;
-    color: #fff;
-    padding-top: 35px ;
-    margin-right: 80px;
-
+    padding: 20px;
+}
+.conter-con>.left>.login{
+    width: 384px;
+    height: 488px;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.conter-con>.left>.login>.top{
+    width: 384px;
+    height: 50px;
+    text-align: center;
+}
+.conter-con>.left>.login>.bottom{
+    width: 384px;
+    height: 434px;
+}
+.conter-con>.left>.login>.bottom>.userClass{
+    width: 300px;
+    height: 40px;
+    margin-left: 55px;
+}
+.conter-con>.left>.login>.bottom>.passClass{
+    width: 300px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.conter-con>.left>.login>.bottom>.yanze{
+    width: 384px;
+    height: 40px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+.conter-con>.left>.login>.bottom>.zc{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 30px 0 0 55px;
+}
+.conter-con>.left>.login>.bottom>.zc:hover{
+    background-color: #ccc;
+}
+.conter-con>.left>.login>.bottom>.yanze>.y-left{
+    width: 200px;
+    height: 40px;
+    float: left;
+}
+.conter-con>.left>.login>.bottom>.yanze>.y-left>.yanzema{
+    height: 40px;
+}
+.conter-con>.left>.login>.bottom>.yanze>.y-right{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.conter-con>.left>.login>.bottom>.dl{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    margin: 30px 0 0 55px;
+}
+.conter-con>.right{
+    height: 604px;
+    width: 600px;
+    float: left;
+}
+.conter-con>.right>.right-p{
+    margin-top: 100px;
+}
+.conter-con>.right>.right-p>ul li{
+    margin-top: 20px;
+}
+/* 注册 */
+.register-con{
+    height: 600px;
+}
+.box{
+    width: 430px;
+    height: 300px;
+    position: relative;
+    left: 26%;
+    top: 20%;
+}
+.box>p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: -153px;
+    margin-bottom: 20px;
+}
+.box>.box-a{
+    width: 300px;
+    height: 40px; 
+}
+.box>.box-b{
+    width: 300px;
+    height: 40px; 
+    margin-top: 30px;
+}
+.box>.zhuc{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
 }
