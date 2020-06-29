@@ -75,3 +75,54 @@
     height: 50px;
     border: 1px solid #fff;
 }
+#main{
+    background-color: gray;
+}
+.show{
+    height: 480px;
+}
+.show>.row{
+    width: 724px;
+    height: 480px;
+    margin: 20px 0 0 20px;
+    float: left;
+    position: relative;
+}
+.show>.row-a{
+    width: 724px;
+    height: 480px;
+    margin: 20px 0 0 20px;
+    float: left;
+    position: relative;
+}
+.show>.row img{
+    width: 100%;
+    height: 100%;
+}
+.show>.row-a img{
+    width: 100%;
+    height: 100%;
+}
+.show>.row>.aiu{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 82%;
+    left: 39%;
+}
+.show>.row>.show-an{
+    display: block;
+    width: 157px;
+    height: 48px;
+    background-color: #fff;
+    position: absolute;
+    top: 82%;
+    left: 39%;
+    color: black;
+    line-height: 48px;
+}
+.show>.row>.show-an>em{
+    margin-left: 10px;
+    font-size: 14px;
+}
