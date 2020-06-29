@@ -1,5 +1,5 @@
 /* 公共样式 */
-.top-con,.header-con{
+.top-con,.header-con,.footer-con,.bottom-con{
     width: 1280px;
     margin: 0 auto;
 }
@@ -91,4 +91,60 @@
     display: block;
     float: left;
     background-color: #fff;
+}
+
+/* footer */
+#footer{
+    height: 480px;
+}
+.footer-top{
+    background-color: black;
+    height: 100px;
+}
+.footer-top>.footer-list li{
+    display: block;
+    font-size: 18px;
+    float: left;
+    color: #fff;
+    padding-top: 35px ;
+    margin-right: 80px;
+}
+.footer-con{
+    height: 404px;
+    padding-top: 20px;
+}
+.footer-con ul {
+    width: 260px;
+    height: 216px;
+    float: left;
+}
+.footer-con>.ul-btm{
+    padding-top: 20px;
+    width: 1200px;
+    height: 30px;
+    margin-top: 30px;
+}
+.footer-con>.ul-btm li{
+    float: left;
+}
+.footer-con ul li{
+    margin-top: 10px;
+}
+.footer-con ul li a{
+    color: #000;
+}
+#bottom{
+    background-color: #000;
+}
+.bottom-con{
+    height: 40px;
+}
+.bottom-con ul li{
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+    margin: 0 5px;
+}
+.bottom-con ul li a{
+    color: #98989a;
 }

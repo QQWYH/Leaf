@@ -1,5 +1,5 @@
 /* 公共样式 */
-.banner-con{
+.banner-con,.cms,.footer-list{
     width: 1280px;
     margin: 0 auto;
 }
@@ -126,11 +126,86 @@
     margin-left: 10px;
     font-size: 14px;
 }
+.show>.row:hover{
+    transform: scaleY(3px);
+    box-shadow: 1px 1px 1px #ccc;
+}
 .yunyu{
     height: 570px;
     margin-top: 30px;
+    position: relative;
+}
+.yunyu>.ybg{
+    width: 175px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 65%;
+    left: 13%;
+}
+.yunyu>.ybg-a{
+    width: 175px;
+    height: 50px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 53%;
+    left: 13%;
+}
+.yunyu>.y-y{
+    display: block;
+    width: 175px;
+    height: 48px;
+    color: black;
+    background-color: #fff;
+    line-height: 48px;
+    position: absolute;
+    top: 53%;
+    left: 13%;
+}
+.yunyu>.y-y>em{
+    margin-left: 10px;
+    font-weight: 200;
+}
+.yunyu>.y-ya{
+    display: block;
+    width: 175px;
+    height: 48px;
+    color: black;
+    background-color: #fff;
+    line-height: 48px;
+    position: absolute;
+    top: 65%;
+    left: 13%;
+}
+.yunyu>.y-ya>em{
+    margin-left: 10px;
+    font-weight: 200;
 }
 .yunyu img{
     width: 100%;
     height: 100%;
+}
+.cms{
+    height: 500px;
+}
+.slider{
+    height: 480px;
+    border: 1px solid #ccc;
+}
+
+#footer{
+    height: 480px;
+}
+.footer-top{
+    background-color: black;
+    height: 100px;
+}
+.footer-top>.footer-list li{
+    display: block;
+    font-size: 18px;
+    float: left;
+    color: #fff;
+    padding-top: 35px ;
+    margin-right: 80px;
+
 }
