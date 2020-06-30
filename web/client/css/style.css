@@ -311,6 +311,15 @@
     height: 40px;
     margin-top: 30px;
 }
-.box>a{
-    color: #000;
+.box>.tz{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin: 30px 0 0 6px;
+}
+.box>.tz:hover{
+    background-color: #ccc;
 }
