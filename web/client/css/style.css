@@ -286,7 +286,7 @@
 }
 .box{
     width: 430px;
-    height: 300px;
+    height: 400px;
     position: relative;
     left: 26%;
     top: 20%;
@@ -310,4 +310,7 @@
     width: 300px;
     height: 40px;
     margin-top: 30px;
+}
+.box>a{
+    color: #000;
 }
