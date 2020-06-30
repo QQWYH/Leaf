@@ -1,5 +1,5 @@
 /* 公共样式 */
-.banner-con,.cms,.footer-list,.register-con{
+.banner-con,.cms,.footer-list,.register-con,.show-list{
     width: 1280px;
     margin: 0 auto;
 }
@@ -322,4 +322,43 @@
 }
 .box>.tz:hover{
     background-color: #ccc;
+}
+/* show-list */
+.show-list{
+    height: 960px;
+    margin-top: 50px;
+}
+.show-list>.list-show{
+    width: 240px;
+    height: 380px;
+}
+.show-list>.list-show>.img{
+    width: 230px;
+    height: 230px;
+    background-color: green;
+}
+.show-list>.list-show>.goods-info{
+    width: 220px;
+    height: 30px;
+   font-size: 12px;
+   line-height: 30px;
+   padding-left: 10px;
+}
+.show-list>.list-show>.goods-box{
+    width: 220px;
+    height: 60px;
+    padding-left: 10px;
+   
+}
+.show-list>.list-show>.goods-box>.goods-title{
+    width: 230px;
+    height: 20px;
+    font-size: 14px;
+    line-height: 10px;
+    padding: 10px 0;
+}
+.show-list>.list-show>.goods-box>.goods-bottom{
+    width: 230px;
+    height: 30px;
+    font-size: 12px;
 }
