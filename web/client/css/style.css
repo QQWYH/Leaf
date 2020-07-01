@@ -331,6 +331,7 @@
 .show-list>.list-show{
     width: 240px;
     height: 380px;
+    float: left;
 }
 .show-list>.list-show>.img{
     width: 230px;
