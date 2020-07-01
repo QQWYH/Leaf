@@ -5,9 +5,9 @@ $(() => {
         dataType: "json",
         success: function (data) {
             console.log(data)
-
             let html = data.map(item => {
                 return `
+                <a href="#"
                 <div class="list-show">
                 <div class="img"><img src="${item.img}"></div>
                 <div class="goods-info">
@@ -21,7 +21,8 @@ $(() => {
                         <span>${item.prive}</span>
                     </div>
                 </div>
-            </div>               
+            </div>  
+            </a>             
                 `
             }).join("");
             $(".show-list").html(html);

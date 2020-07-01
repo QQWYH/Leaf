@@ -325,7 +325,7 @@
 }
 /* show-list */
 .show-list{
-    height: 960px;
+    height: 9500px;
     margin-top: 50px;
 }
 .show-list>.list-show{
@@ -333,10 +333,15 @@
     height: 380px;
     float: left;
     margin-left: 10px;
+    margin-bottom: 15px;
+}
+.show-list>.list-show:hover{
+    background-color: #ccc;
 }
 .show-list>.list-show>.img{
     width: 230px;
     height: 230px;
+    margin-left: 5px;
     background-color: gray;
 }
 .show-list>.list-show>.img img{
@@ -356,10 +361,13 @@
     padding-left: 10px;
    
 }
+.show-list>a{
+    color: black;
+}
 .show-list>.list-show>.goods-box>.goods-title{
     width: 230px;
     height: 20px;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 10px;
     padding: 10px 0;
 }
