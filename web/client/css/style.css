@@ -336,7 +336,11 @@
 .show-list>.list-show>.img{
     width: 230px;
     height: 230px;
-    background-color: green;
+    background-color: gray;
+}
+.show-list>.list-show>.img img{
+    width: 230px;
+    height: 230px;
 }
 .show-list>.list-show>.goods-info{
     width: 220px;
