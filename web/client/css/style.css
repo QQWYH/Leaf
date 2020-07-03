@@ -1,5 +1,6 @@
 /* 公共样式 */
-.banner-con,.cms,.footer-list,.register-con,.show-list,.c-title,.c-slider,.arrows,.p-conter-con{
+.banner-con,.cms,.footer-list,.register-con,.show-list,.c-title,
+.c-slider,.arrows,.p-conter-con,.p-con{
     width: 1280px;
     margin: 0 auto;
 }
@@ -332,34 +333,34 @@
     height: 9500px;
     margin-top: 50px;
 }
-.show-list>.list-show{
+.show-list>a>.list-show{
     width: 240px;
     height: 380px;
     float: left;
     margin-left: 10px;
     margin-bottom: 15px;
 }
-.show-list>.list-show:hover{
+.show-list>a>.list-show:hover{
     background-color: #ccc;
 }
-.show-list>.list-show>.img{
+.show-list>a>.list-show>.img{
     width: 230px;
     height: 230px;
     margin-left: 5px;
     background-color: gray;
 }
-.show-list>.list-show>.img img{
+.show-list>a>.list-show>.img img{
    width: 100%;
    height: 100%;
 }
-.show-list>.list-show>.goods-info{
+.show-list>a>.list-show>.goods-info{
     width: 220px;
     height: 30px;
    font-size: 12px;
    line-height: 30px;
    padding-left: 10px;
 }
-.show-list>.list-show>.goods-box{
+.show-list>a>.list-show>.goods-box{
     width: 220px;
     height: 60px;
     padding-left: 10px;
@@ -368,14 +369,14 @@
 .show-list>a{
     color: black;
 }
-.show-list>.list-show>.goods-box>.goods-title{
+.show-list>a>.list-show>.goods-box>.goods-title{
     width: 230px;
     height: 20px;
     font-size: 12px;
     line-height: 10px;
     padding: 10px 0;
 }
-.show-list>.list-show>.goods-box>.goods-bottom{
+.show-list>a>.list-show>.goods-box>.goods-bottom{
     width: 230px;
     height: 30px;
     font-size: 12px;
@@ -452,7 +453,11 @@
     height: 700px;
     position: relative;
 }
-.p-conter-con>.p-left{
+.p-conter-c{
+    height: 700px;
+    position: relative;
+}
+.p-con>.p-left{
     width: 400px;
     height: 400px;
    position: absolute;
@@ -460,7 +465,11 @@
    top: 20%;
     float: left;
 }
-.p-conter-con>.p-right{
+.p-con>.p-left img{
+    width: 100%;
+    height: 100%;
+}
+.p-con>.p-right{
     width: 400px;
     height: 500px;
     float: left;
@@ -468,55 +477,55 @@
     left: 49%;
     top: 13%;
 }
-.p-conter-con>.p-right>.title{
+.p-con>.p-right>.title{
     width: 400px;
     height: 30px;
     font-size: 12px;
     line-height: 30px;
     margin: 10px 0 0 20px;
 }
-.p-conter-con>.p-right>.titleA{
+.p-con>.p-right>.titleA{
     width: 400px;
     height: 30px;
     font-size: 24px;
     line-height: 30px;
     margin: 40px 0 0 20px;
 }
-.p-conter-con>.p-right>.prive{
+.p-con>.p-right>.prive{
     width: 400px;
     height: 30px;
     font-size: 12px;
     line-height: 30px;
     margin: 80px 0 0 20px;
 }
-.p-conter-con>.p-right>.cout{
+.p-con>.p-right>.cout{
     width: 400px;
     height: 50px;
     margin-top: 20px;
     margin-top: 105px;
 }
-.p-conter-con>.p-right>.cout>.yds{
+.p-con>.p-right>.cout>.yds{
     width: 200px;
     height: 50px;
     float: left;
 }
-.p-conter-con>.p-right>.cout>.yds>#select{
+.p-con>.p-right>.cout>.yds>#select{
     width: 200px;
     height: 30px;
     margin-top: 10px;
 }
-.p-conter-con>.p-right>.cout>.count{
+.p-con>.p-right>.cout>.count{
     width: 100px;
     height: 50px;
     float: left;
     margin-left: 30px;
 }
-.p-conter-con>.p-right>.cout>.count>#num{
+.p-con>.p-right>.cout>.count>#num{
     width: 100px;
     height: 30px;
     margin-top: 10px;
 }
-.p-conter-con>.p-right>.cout>.add>.addcar{
+.p-con>.p-right>.cout>.add>.addcar{
     width: 200px;
     height: 30px;
     background-color: gray;

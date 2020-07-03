@@ -1,14 +1,16 @@
 $(() => {
     var url = location.search.split('=')[1];
+    console.log(url)
     $.ajax({
         type: "get",
         data: url,
-        url: "../server/goodslist.php",
+        url: "../server/goodsdetails.php",
         dataType: "json",
         success: function (data) {
+            console.log(data)
             let html = data.map(item => {
                 return `
-            <a href="./productshow.html?id=${item.id}">
+            <a href="./productshowa.html?id=${item.id}">
                 <div class="list-show">
                 <div class="img"><img src="${item.img}"></div>
                 <div class="goods-info">
@@ -23,14 +25,10 @@ $(() => {
                     </div>
                 </div>
                 </div>  
-            </a>             
-                `
+            </a>                             `
             }).join("");
             $(".show-list").html(html);
         }
     });
-
-
-
 
 })

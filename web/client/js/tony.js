@@ -6,4 +6,15 @@ $(() => {
     } else {
         alert("请登录");
     }
+
+    $(".kl").click(function () {
+        localStorage.removeItem("username");
+        localStorage.removeItem("id");
+        setInterval(function () {
+            window.location.href = "../login.html";
+        }, 2000);
+
+    })
+
+
 })
