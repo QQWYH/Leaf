@@ -1,5 +1,5 @@
 /* 公共样式 */
-.banner-con,.cms,.footer-list,.register-con,.show-list{
+.banner-con,.cms,.footer-list,.register-con,.show-list,.c-title,.c-slider,.arrows,.p-conter-con{
     width: 1280px;
     margin: 0 auto;
 }
@@ -184,13 +184,6 @@
 .yunyu img{
     width: 100%;
     height: 100%;
-}
-.cms{
-    height: 500px;
-}
-.slider{
-    height: 480px;
-    border: 1px solid #ccc;
 }
 /* login */
 #conter{
@@ -386,4 +379,147 @@
     width: 230px;
     height: 30px;
     font-size: 12px;
+}
+/* slider */
+.cms{
+    height: 500px;
+}
+.cms>.c-title{
+    height: 50px;
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+}
+.cms>.c-slider{
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+.cms>.c-slider>.c-show{
+    position: relative;
+    height: 450px;
+    width: 2000px;
+    background-color: gray;
+}
+.cms>.c-slider>.c-show>.show-slider{
+    width: 300px;
+    height: 450px;
+    float: left;
+}
+.cms>.c-slider>.c-show>.show-slider>.img{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+}
+.cms>.c-slider>.c-show>.show-slider>.s-box{
+    width: 300px;
+    height: 150px;
+}
+.cms>.c-slider>.arrows{
+    height: 40px;
+    position: absolute;
+    top: 50%;
+}
+.cms>.c-slider>.arrows>.left{
+    width: 40px;
+    height: 40px;
+    float: left;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.cms>.c-slider>.arrows>.left:hover{
+    background-color: #fff;
+}
+.cms>.c-slider>.arrows>.right:hover{
+    background-color: #fff;
+}
+.cms>.c-slider>.arrows>.right{
+    width: 40px;
+    height: 40px;
+    float: right;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+.slider{
+    height: 480px;
+    border: 1px solid #ccc;
+}
+
+/* productsshow */
+.p-conter-con{
+    height: 700px;
+    position: relative;
+}
+.p-conter-con>.p-left{
+    width: 400px;
+    height: 400px;
+   position: absolute;
+   left: 10%;
+   top: 20%;
+    float: left;
+}
+.p-conter-con>.p-right{
+    width: 400px;
+    height: 500px;
+    float: left;
+    position: absolute;
+    left: 49%;
+    top: 13%;
+}
+.p-conter-con>.p-right>.title{
+    width: 400px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 10px 0 0 20px;
+}
+.p-conter-con>.p-right>.titleA{
+    width: 400px;
+    height: 30px;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 40px 0 0 20px;
+}
+.p-conter-con>.p-right>.prive{
+    width: 400px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 80px 0 0 20px;
+}
+.p-conter-con>.p-right>.cout{
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    margin-top: 105px;
+}
+.p-conter-con>.p-right>.cout>.yds{
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+.p-conter-con>.p-right>.cout>.yds>#select{
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+}
+.p-conter-con>.p-right>.cout>.count{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 30px;
+}
+.p-conter-con>.p-right>.cout>.count>#num{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.p-conter-con>.p-right>.cout>.add>.addcar{
+    width: 200px;
+    height: 30px;
+    background-color: gray;
+    margin: 20px 0 0 70px;
+   
 }

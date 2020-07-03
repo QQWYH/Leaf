@@ -4,10 +4,9 @@ $(() => {
         url: "../server/goodslist.php",
         dataType: "json",
         success: function (data) {
-            console.log(data)
             let html = data.map(item => {
                 return `
-                <a href="#"
+                <a href="../productshow.html?id=${item.id}">
                 <div class="list-show">
                 <div class="img"><img src="${item.img}"></div>
                 <div class="goods-info">
