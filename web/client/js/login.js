@@ -47,8 +47,6 @@ $(() => {
                 success: function (response) {
                     console.log(response)
                     if (response.status == "success") {
-                        $(".name").css("display", "none");
-                        $(".name").next().html(username, "欢迎您的到来")
                         localStorage.username = username;
                         localStorage.id = response.data.userId;
                         window.location.href = "./index.html"
