@@ -263,6 +263,17 @@
     height: 40px;
     float: left;
 }
+.conter-con>.left>.login>.bottom>.yanze>.y-right>.code{
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    font-size: 20px;
+    line-height: 40px;
+    color: green;
+    font-weight: bold;
+    border: 0;
+    letter-spacing: 2px;
+}
 .conter-con>.left>.login>.bottom>.dl{
     width: 300px;
     height: 40px;
