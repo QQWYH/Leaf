@@ -457,6 +457,11 @@
     height: 700px;
     position: relative;
 }
+.p-conter-c>.addcar{
+    position: absolute;
+    left: 50%;
+    top: 77%;
+}
 .p-con>.p-left{
     width: 400px;
     height: 400px;
