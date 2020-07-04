@@ -1,6 +1,6 @@
 /* 公共样式 */
 .banner-con,.cms,.footer-list,.register-con,.show-list,.c-title,
-.c-slider,.arrows,.p-conter-con,.p-con{
+.c-slider,.arrows,.p-conter-con,.p-con,.shopping,.t-list{
     width: 1280px;
     margin: 0 auto;
 }
@@ -530,5 +530,36 @@
     height: 30px;
     background-color: gray;
     margin: 20px 0 0 70px;
-   
+}
+.shopping{
+    height: 400px;
+}
+.shopping>.top{
+    height: 30px;
+    line-height: 30px;
+}
+.shopping>.bottom>.t-list{
+    height: 20px;
+}
+.shopping>.bottom>.t-list>.check{
+    height: 20px;
+   float: left;
+}
+.shopping>.bottom>.t-list>.xinx{
+    width: 80px;
+    height: 20px;
+    float: left;
+    margin-left: 50px;
+}
+.shopping>.bottom>.t-list>.dj{
+    height: 20px;
+    float: left;
+    margin-left: 100px;
+}
+.shopping>.bottom{
+    min-height: 350px;
+    border: 1px solid #ccc;
+}
+.shopping>.t-show{
+    height: 200px;
 }
