@@ -537,6 +537,19 @@
 .shopping>.top{
     height: 30px;
     line-height: 30px;
+    position: relative;
+}
+.shopping>.top>.btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-right: 50px;
+}
+.shopping>.top>.btn:hover{
+    background-color: red;
 }
 .shopping>.bottom>.t-list{
     height: 20px;
@@ -549,17 +562,34 @@
     width: 80px;
     height: 20px;
     float: left;
-    margin-left: 50px;
+    margin-left: 256px;
 }
 .shopping>.bottom>.t-list>.dj{
     height: 20px;
     float: left;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .shopping>.bottom{
     min-height: 350px;
     border: 1px solid #ccc;
 }
-.shopping>.t-show{
-    height: 200px;
+.shopping>.bottom>.t-show{
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+.shopping>.bottom>.t-show>.liebo{
+    height: 60px;
+}
+.shopping>.bottom>.t-show>.liebo>li{
+    float: left;
+    width: 100px;
+    height: 60px;
+    background-color: red;
+     margin-right: 130px;
+}
+.shopping>.bottom>.t-show>.liebo>li>#ckbox{
+    margin-top: 20px;
+}
+.shopping>.bottom>.t-show>.liebo>.mass{
+    width: 200px;
 }
