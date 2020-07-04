@@ -26,9 +26,7 @@ $(() => {
                         <div class="count">
                             <input type="text" id="num">
                         </div>
-                        <div class="add">
-                            <button class="addcar">加入购物车</button>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
